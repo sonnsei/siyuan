@@ -40,3 +40,44 @@ I 2024/02/27 19:18:24 index.go:197: rebuilt database for notebook [2024022719182
 I 2024/02/27 19:18:24 index.go:269: resolved refs [30] in [70ms]
 W 2024/02/27 19:26:45 history.go:531: history dir [/Users/suncheng/github/siyuan/history] not exist
 W 2024/02/27 19:36:45 history.go:531: history dir [/Users/suncheng/github/siyuan/history] not exist
+I 2024/02/27 21:40:56 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/02/27 21:40:56 runtime.go:74: kernel is booting:
+    * ver [3.0.1]
+    * arch [amd64]
+    * os [darwin]
+    * pid [64317]
+    * runtime mode [prod]
+    * working directory [/Applications/SiYuan.app/Contents/Resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/Users/suncheng/git/siyuan]
+I 2024/02/27 21:40:56 conf.go:136: initialized the specified language [zh_CN]
+I 2024/02/27 21:40:56 runtime.go:123: use network proxy [system]
+I 2024/02/27 21:40:56 serve.go:115: kernel [pid=64317] http server [127.0.0.1:57041] is booting
+I 2024/02/27 21:40:56 blocktree.go:495: read block tree [706 kB] to [/Users/suncheng/git/siyuan/temp/blocktree], elapsed [0.02s]
+I 2024/02/27 21:40:56 conf.go:795: database size [7.8 MB], tree/block count [70/2507]
+I 2024/02/27 21:40:56 working.go:192: kernel booted
+I 2024/02/27 21:40:56 box.go:76: auto stat [trees=70, blocks=2507, dataSize=3.5 MB, assetsSize=2.0 MB]
+I 2024/02/27 21:40:56 disk.go:33: disk usage [total=500 GB, used=421 GB, free=51 GB]
+I 2024/02/27 21:40:57 serve.go:128: reverse proxy server [127.0.0.1:6806] is booting
+I 2024/02/27 21:40:59 pandoc.go:132: built-in pandoc [ver=3.1.1, bin=/Users/suncheng/git/siyuan/temp/pandoc/bin/pandoc]
+I 2024/02/27 21:40:59 conf.go:1039: pandoc initialized, set pandoc bin to [/Users/suncheng/git/siyuan/temp/pandoc/bin/pandoc]
+I 2024/02/27 23:13:25 conf.go:547: exiting kernel [force=false, execInstallPkg=0]
+I 2024/02/27 23:13:28 conf.go:1029: closed user guide box [20210808180117-czj9bvb]
+I 2024/02/27 23:13:28 database.go:1244: closed database
+W 2024/02/27 23:13:33 blocktree.go:552: save block tree [size=36 kB] to [/Users/suncheng/git/siyuan/temp/blocktree], elapsed [6.60s]
+I 2024/02/27 23:13:33 conf.go:958: cleared workspace temp
+I 2024/02/27 23:13:33 sync.go:713: sync websocket closed
+I 2024/02/27 23:13:34 conf.go:603: exited kernel
