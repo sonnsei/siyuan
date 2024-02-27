@@ -1,0 +1,42 @@
+I 2024/02/27 19:06:44 working.go:146: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2024/02/27 19:06:44 runtime.go:74: kernel is booting:
+    * ver [3.0.1]
+    * arch [amd64]
+    * os [darwin]
+    * pid [64222]
+    * runtime mode [prod]
+    * working directory [/Applications/SiYuan.app/Contents/Resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20220501]
+    * workspace directory [/Users/suncheng/github/siyuan]
+I 2024/02/27 19:06:44 conf.go:156: initialized language [zh_CN] based on device locale
+I 2024/02/27 19:06:44 runtime.go:123: use network proxy [system]
+I 2024/02/27 19:06:44 serve.go:115: kernel [pid=64222] http server [127.0.0.1:53970] is booting
+I 2024/02/27 19:06:45 database.go:89: the database structure is changed, rebuilding database...
+I 2024/02/27 19:06:45 database.go:109: reinitialized database [/Users/suncheng/github/siyuan/temp/siyuan.db]
+I 2024/02/27 19:06:45 conf.go:795: database size [4.1 kB], tree/block count [0/0]
+I 2024/02/27 19:06:45 working.go:192: kernel booted
+I 2024/02/27 19:06:45 box.go:76: auto stat [trees=0, blocks=0, dataSize=37 kB, assetsSize=0 B]
+I 2024/02/27 19:06:45 disk.go:33: disk usage [total=500 GB, used=461 GB, free=15 GB]
+I 2024/02/27 19:06:46 pandoc.go:155: initialized built-in pandoc [ver=3.1.1, bin=/Users/suncheng/github/siyuan/temp/pandoc/bin/pandoc]
+I 2024/02/27 19:06:46 conf.go:1039: pandoc initialized, set pandoc bin to [/Users/suncheng/github/siyuan/temp/pandoc/bin/pandoc]
+I 2024/02/27 19:06:46 index.go:197: rebuilt database for notebook [20210808180117-czj9bvb] in [0.06s], tree [count=68, size=1.3 MB]
+I 2024/02/27 19:06:46 index.go:269: resolved refs [30] in [42ms]
+W 2024/02/27 19:06:49 blocktree.go:552: save block tree [size=651 kB] to [/Users/suncheng/github/siyuan/temp/blocktree], elapsed [2.98s]
+W 2024/02/27 19:16:45 history.go:531: history dir [/Users/suncheng/github/siyuan/history] not exist
+I 2024/02/27 19:18:24 index.go:197: rebuilt database for notebook [20240227191824-uh3cnnk] in [0.00s], tree [count=0, size=0 B]
+I 2024/02/27 19:18:24 index.go:269: resolved refs [30] in [70ms]
+W 2024/02/27 19:26:45 history.go:531: history dir [/Users/suncheng/github/siyuan/history] not exist
+W 2024/02/27 19:36:45 history.go:531: history dir [/Users/suncheng/github/siyuan/history] not exist
